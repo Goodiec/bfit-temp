@@ -1,0 +1,379 @@
+:root {
+  --primary-color:#FC7407;
+  --black: #000000;
+  --primary-text-color:#807F7F;
+  --sec-text-color:#FFFFFF;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; 
+  line-height: 1.5;
+  overflow: auto;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*Navigation Bar*/
+nav.navbar{
+  background-color: transparent;
+  padding: 16px 16px;
+}
+nav.navbar .container{
+  margin-top: 30px;
+}
+.nav li a{
+  text-decoration: none;
+}
+nav .navbar-brand{
+  color:var(--primary-color);
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  background-color: var(--sec-text-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+nav a{
+  color: var(--sec-text-color);
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+nav a:hover{
+  color: var(--primary-color);
+}
+span.navbar-toggler-icon{
+  color: var(--primary-color);
+}
+#nav-social{
+  padding-left:30px;
+}
+.sec-title{
+  font-weight: bold;
+  font-size: 64px;
+  color: var(--primary-color);
+}
+.sec-title2{
+  font-weight: normal;
+  font-size: 40px;
+  color: var(--primary-text-color);
+}
+
+/*Header Section*/
+header{
+  background-image:url('../images/header-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:#fff;
+  height: 136vh;
+  position: relative;
+}
+.header-section h1{
+  font-weight: bold;
+  font-size: 100px;
+}
+.header-section h3{
+  font-weight:normal;
+  font-size: 64px;
+}
+.header-content{
+  position: absolute;
+  top: 68%;
+  left: 28%;
+}
+
+/*About Section*/
+#about h5{
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--primary-color);
+}
+#about p, ul li{
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  text-align: justify;
+}
+#about-image{
+  max-width: 200px;
+  height: auto;
+}
+#about .btn{
+  background-color: var(--primary-color);
+  color:var(--sec-text-color);
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+#about p.sec-title2{
+  font-size: 30px;
+}
+#angle-down{
+  display: inline;
+  max-width: 36px;
+}
+
+/*Services Section*/
+.icon-circle {
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  width: 129px;
+  height: 127px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.service-p{
+  font-weight: normal;
+  font-size:30px;
+  color: var(--primary-color);
+}
+/*Pricing */
+#pricing h5{
+  background-color: var(--primary-text-color);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 12px;
+  color: var(--sec-text-color);
+}
+.price{
+  font-size: 40px;
+  font-weight: normal;
+  color: var(--primary-color);
+}
+#pricing ul{
+  font-size: 16px;
+  color: var(--primary-color);
+  margin: 0 auto;
+  padding-left: 100px;
+}
+a.book-btn{
+  background-color: var(--primary-color);
+  color: var(--sec-text-color);
+  font-weight: bold;
+  padding: 10px 76px;
+  border-radius: 6px;
+}
+#pricing{
+  margin-bottom: 70px;
+}
+/*Schedule*/
+#schedule{
+  background: transparent url(../images/schedule-bg.png) no-repeat center top fixed;
+  background-size: cover;
+  color: var(--sec-text-color);
+  height: 95vh;
+}
+#schedule h4{
+  font-weight: bold;
+  font-size: 64px;
+}
+#schedule h3{
+  font-size: 40px;
+}
+#schedule p{
+  font-size: 40px;
+}
+
+#schedule-content{
+  margin-top:90px;
+}
+.overlay{
+  background: rgba(128, 127, 127, 0.4);
+  height: 100%;
+  width: 100%;
+  background-blend-mode: multiply;
+}
+
+/*Blog*/
+.blog-div{
+  padding: 30px;
+  max-width:645px;
+}
+.blog-div img{
+  width: 100%;
+  height: auto;
+}
+.blog-text{
+  background-color: var(--primary-color);
+  color: var(--sec-text-color);
+  font-size: 37px;
+  height: 199px;
+}
+.blog-text p{
+  position: relative;
+  top: 25%;
+}
+
+/*Clients*/
+#clients {
+  color: var(--primary-text-color);
+}
+.client-name{
+  font-size: 40px;
+}
+.designation{
+  margin-top: -20px;
+}
+#clients .row{
+  margin-top: 80px;
+}
+/*Contact*/
+#contact form{
+  background-color: var(--primary-text-color);
+  padding: 50px 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+#contact form input{
+  border-radius:0;
+}
+textarea#contactMessage.form-control{
+  background-color: #FFFFFF !important;
+}
+button.form-btn{
+  background-color: var(--primary-color);
+  color: var(--sec-text-color);
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 36px;
+  border-radius: 6px;
+}
+/*Footer*/
+#footer h4{
+ font-size: 40px;
+ color: var(--primary-text-color);
+}
+
+#footer a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#footer a:hover{
+  color:#807F7F;
+}
+ul.social-icons li{
+  list-style: none;
+  padding-right: 10px;
+}
+ul.social-icons li a{
+  color:var(--sec-text-color);
+}
+ul.social-icons li a:hover{
+  color:var(--primary-color)
+}
+
+/*Social Icons*/
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+.social-icons li a{
+  color: #5C5D5E;
+  font-size: 28px;
+}
+.social-icons ul{
+  margin-left: 0;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 991px) {
+  #nav-social{
+    padding-left: 0;
+    display: none;
+  }
+  #about img{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  #about-text{
+    padding-bottom: 54px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #mobile-social{
+    display: block !important;
+  }
+  .header-content{
+    top: 64%;
+    left: 20%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header-content{
+    top: 50%;
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 767px){
+  footer #form{
+    margin-bottom: 30px;
+  }
+  #about-red-text{
+    font-size: 1rem;
+  }
+  #mobile-form{
+    display: block;
+  }
+  #about, #about p.sec-title2{
+    text-align: center;
+  }
+  #about-image{
+    margin:0 auto;
+  }
+  #pricing div.col-md-4{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #services h4, #projects h4, #testimonials h4{
+    font-size: 1.25rem;
+  }
+  #services p{
+    font-size: 15px;
+  }
+ footer .col-sm-12{
+   margin-bottom: 10px;
+ }
+ nav .navbar-brand{
+   font-size: 1.25rem;
+ }
+ .header-section h3{
+   font-size: 1.666rem;
+ }
+ .header-section h1{
+   font-size: 3.332rem;
+ }
+ .header-section p{
+   font-size: 1.041rem;
+ }
+ 
+ #projects-text{
+   font-size: 13px;
+   text-align: center;
+ }
+ #footer p, footer a{
+   font-size: 0.983rem;
+ }
+ a.footer-brand{
+ font-size: 1.25rem;
+ }
+}
