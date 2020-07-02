@@ -39,6 +39,7 @@ nav .navbar-brand{
   color:var(--primary-color);
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
+  font-size: 24px;
   background-color: var(--sec-text-color);
   padding: 10px;
   border-radius: 50%;
@@ -367,7 +368,7 @@ ul.social-icons li a:hover{
 }
 
 @media only screen and (max-width: 768px){
- nav .navbar-brand{
-   font-size: 1.25rem;
- }
+  nav .navbar-brand{
+    font-size: 15px;
+  }
 }
