@@ -118,14 +118,17 @@ header{
   font-size: 24px;
   padding-right: 20px;
   padding-left: 20px;
+  border: 2px solid var(--primary-color);
 
 }
 #about p.sec-title2{
   font-size: 30px;
 }
-#angle-down{
-  display: inline;
-  max-width: 36px;
+a.btn.download-btn{
+  border: 2px solid var(--primary-color);
+}
+a.btn.download-btn:hover{
+  background-color: transparent;
 }
 
 /*Services Section*/
@@ -169,6 +172,8 @@ a.book-btn{
   font-weight: bold;
   padding: 10px 76px;
   border-radius: 6px;
+  border: 2px solid var(--primary-color);
+
 }
 #pricing{
   margin-bottom: 70px;
@@ -205,6 +210,10 @@ a.book-btn{
 .blog-div{
   padding: 30px;
   max-width:645px;
+  cursor: pointer;
+}
+.blog-div:hover{
+  opacity: 0.5;
 }
 .blog-div img{
   width: 100%;
@@ -252,8 +261,16 @@ button.form-btn{
   color: var(--sec-text-color);
   font-weight: bold;
   font-size: 24px;
-  padding: 10px 36px;
+  padding: 10px 34px;
   border-radius: 6px;
+  border: 2px solid var(--primary-color);
+}
+button.form-btn:hover{
+  background-color: #ffffff;
+}
+.btn:hover{
+  background-color: transparent;
+  color: var(--primary-color);
 }
 /*Footer*/
 #footer h4{
@@ -323,14 +340,8 @@ ul.social-icons li a:hover{
   }
 }
 @media only screen and (max-width: 767px){
-  footer #form{
-    margin-bottom: 30px;
-  }
-  #about-red-text{
-    font-size: 1rem;
-  }
-  #mobile-form{
-    display: block;
+  #schedule p{
+    font-size: 25px;
   }
   #about, #about p.sec-title2{
     text-align: center;
@@ -341,39 +352,22 @@ ul.social-icons li a:hover{
   #pricing div.col-md-4{
     margin-bottom: 30px;
   }
+  .header-section h1{
+    font-size: 50px;
+  }
+  .header-section h3{
+    font-size: 30px;
+  }
+  .sec-title, #schedule h4{
+    font-size: 50px;
+  }
+  .sec-title2, #schedule h3{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 768px){
-  #services h4, #projects h4, #testimonials h4{
-    font-size: 1.25rem;
-  }
-  #services p{
-    font-size: 15px;
-  }
- footer .col-sm-12{
-   margin-bottom: 10px;
- }
  nav .navbar-brand{
    font-size: 1.25rem;
- }
- .header-section h3{
-   font-size: 1.666rem;
- }
- .header-section h1{
-   font-size: 3.332rem;
- }
- .header-section p{
-   font-size: 1.041rem;
- }
- 
- #projects-text{
-   font-size: 13px;
-   text-align: center;
- }
- #footer p, footer a{
-   font-size: 0.983rem;
- }
- a.footer-brand{
- font-size: 1.25rem;
  }
 }
