@@ -67,7 +67,6 @@ span.navbar-toggler-icon{
   color: var(--primary-color);
 }
 .sec-title2{
-  font-weight: normal;
   font-size: 40px;
   color: var(--primary-text-color);
 }
@@ -87,7 +86,6 @@ header{
   font-size: 100px;
 }
 .header-section h3{
-  font-weight:normal;
   font-size: 64px;
 }
 .header-content{
@@ -103,7 +101,6 @@ header{
   color: var(--primary-color);
 }
 #about p, ul li{
-  font-weight: normal;
   font-size: 16px;
   color: var(--primary-text-color);
   text-align: justify;
@@ -144,7 +141,6 @@ a.btn.download-btn:hover{
   margin: 0 auto;
 }
 .service-p{
-  font-weight: normal;
   font-size:30px;
   color: var(--primary-color);
 }
@@ -158,7 +154,6 @@ a.btn.download-btn:hover{
 }
 .price{
   font-size: 40px;
-  font-weight: normal;
   color: var(--primary-color);
 }
 #pricing ul{
@@ -364,6 +359,15 @@ ul.social-icons li a:hover{
   }
   .sec-title2, #schedule h3{
     font-size: 15px;
+  }
+  .blog-text{
+    font-size: 25px;
+  }
+  button.form-btn{
+    font-size: 15px;
+  }
+  .service-p{
+    font-size:25px;
   }
 }
 
