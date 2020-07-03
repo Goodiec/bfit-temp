@@ -243,7 +243,7 @@ a.book-btn{
 #contact form{
   background-color: var(--primary-text-color);
   padding: 50px 30px;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 #contact form input{
@@ -325,7 +325,7 @@ ul.social-icons li a:hover{
     display: block !important;
   }
   .header-content{
-    top: 64%;
+    top: 68%;
     left: 20%;
   }
 }
